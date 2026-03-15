@@ -1,0 +1,33 @@
+
+<!-- ======================= -->
+<!-- PAGE GALERIE PHOTOS -->
+<!-- enregistrer comme galerie-photos.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Galerie Photographies</title>
+<style>
+body{background:#111;color:#fff;font-family:Arial;margin:0;padding:40px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.gallery img{width:100%;height:280px;object-fit:cover;border-radius:10px}
+a{color:white;text-decoration:none;border:1px solid #fff;padding:8px 12px;border-radius:6px}
+.button { background: #333; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 6px; display: inline-block; margin: 0 10px; }
+</style>
+</head>
+<body>
+<h1>Galerie Photographies</h1>
+<div class="gallery">
+<img src="https://picsum.photos/500?21">
+<img src="https://picsum.photos/500?22">
+<img src="https://picsum.photos/500?23">
+<img src="https://picsum.photos/500?24">
+</div>
+<br><br>
+<a href="index.html" class="button">Accueil</a>
+<br><br>
+<a href="demarche.html" class="button">Démarche</a>
+<a href="contact.html" class="button">Contact</a>
+</body>
+</html>
